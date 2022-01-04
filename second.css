@@ -1,0 +1,83 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.intro{
+    text-align: center;
+    padding: 100px;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.row{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    
+
+}
+
+.card h2{
+    line-height: 60px;
+    font-size: 3rem;
+}
+
+
+section{
+    margin-top: 30px;
+}
+.conatainer{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 20px;
+
+}
+
+.cardSecond{
+    background-color: tomato;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.inputField{
+    display: inline-block;
+    width: 80%;
+    margin-top: 7px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+   
+}
+
+.btn{
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: white;
+    padding: 7px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
