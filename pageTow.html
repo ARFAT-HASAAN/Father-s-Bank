@@ -18,15 +18,15 @@
 
              <div class="card">
                  <h2>Diposite</h2>
-                 <h2>$00</h2>
+                 <h2>$ <span id="DepositeMoney">00</span></h2>
              </div>
              <div class="card">
                  <h2>Withdraw</h2>
-                 <h2>$00</h2>
+                 <h2>$<span id="withdrawMoney">00</span></h2>
              </div>
              <div class="card">
                  <h2>Balance</h2>
-                 <h2>$00</h2>
+                 <h2>$ <span id="balanceField">1000</span></h2>
              </div>
          </div>
         </section>
@@ -36,13 +36,13 @@
             <div class="conatainer" >
                 <div class="cardSecond">
                     <h4>Please Deposite</h4>
-                     <input class="inputField"  type="text" placeholder="Deposite"> <br>
-                     <button class="btn">Deposite</button>
+                     <input class="inputField" id="DepositeValue"  type="text" placeholder="Deposite"> <br>
+                     <button onclick="Deposite()" class="btn">Deposite</button>
                 </div>
                 <div class="cardSecond">
                     <h4>Please Withdraw</h4>
-                    <input class="inputField" type="text" placeholder="Withdraw"> <br>
-                    <button class="btn">Withdraw</button>
+                    <input class="inputField"  id="WithdrawValue" type="text" placeholder="Withdraw"> <br>
+                    <button onclick="Withdraw()" class="btn">Withdraw</button>
 
                 </div>
             </div>
