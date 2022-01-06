@@ -1,5 +1,4 @@
-
-
+// get input value.....
 function getyInputValue(inputID){
   const inputvalue = document.getElementById(inputID).value;
   const inputMoney = parseFloat(inputvalue)
@@ -7,7 +6,7 @@ function getyInputValue(inputID){
    return inputMoney;
     }
 
-
+ // get money filed
     function updateTotal(totalid, prevTotal){
         const updateElement =  document.getElementById(totalid).innerText;
        const UpdateMoney = parseFloat(updateElement);
@@ -17,6 +16,7 @@ function getyInputValue(inputID){
        return total;
     }
 
+    // set balance 
     function updateBalance(balance,value){
         const updateBalanceElement =  document.getElementById('balanceField').innerText;
        const UpdatebalanceMoney = parseFloat(updateBalanceElement);
@@ -31,6 +31,8 @@ function getyInputValue(inputID){
 
         return UpdatebalanceMoney;
     }
+
+    // deposite calculation
  function DiposteFunction(){
      
         const newDeposite = getyInputValue('DepositeValue');
@@ -41,7 +43,8 @@ function getyInputValue(inputID){
         
     //    console.log(newDeposite);
     }
-
+ 
+    // withdraw calc 
  function withDrawFunction(){
   const newWithdraw = getyInputValue('WithdrawValue')
   const updateBalanceElement =  document.getElementById('balanceField').innerText;
