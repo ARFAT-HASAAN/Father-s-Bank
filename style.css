@@ -84,3 +84,13 @@ input{
     margin-top: 15px;
 
 }
+
+.instraction{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    
+}
